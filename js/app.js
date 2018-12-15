@@ -2,7 +2,9 @@
 
 //And don't forget, please feel free to reach out for help. There is such a thing as a DOM question...
 
-//1. Target the h3 element with the id of 'disclaimer' and change the contents to the follow:
+//1. Target the h3 element with the id of 'disclaimer' and change the contents to the follow finePrint variable.
+
+var finePrint = 'Coupons VALID from Tuesday 12/4/2018 thru Saturday 6/29/2019. All sales FINAL. NO REFUNDS and EXCHANGES. And definitely NO RAINCHECKS! And ONLY POSITIVE reviews allowed on Social Media (FB, Instagram, Twitter, Yelp, etc.). And PLEASE Follow us on FB, Instagram, Twitter.'
 
 //2. Target the div elemenet with the id of 'brand1' and update the content to Nabisco.
 
