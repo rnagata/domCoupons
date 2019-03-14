@@ -11,9 +11,10 @@ document.getElementById("disclaimer").innerHTML = finePrint;
 document.getElementById("brand1").innerHTML = "Nabisco";
 //3. Target the div element with the id of 'item1' and update the content with Cheeseburger Oreos. 
 
-document
+document.getElementById("item1").innerHTML = "Cheeseburger Oreos";
 //4. Target the div element with the id of 'price1' and update the content to $8.99.
 
+document.getElementById("price1").innerHTML = "$8.99";
 //5. Target the button element with the id of 'discount1' and update the content to Free fries with purchase!
 
 //6. Create a div element with the id of 'item2' and update the content to Hendrick's Gin. Append this element to William Grand & Sons div.
