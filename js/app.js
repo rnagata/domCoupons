@@ -128,3 +128,54 @@ pugButton.innerHTML = "No Discounts. This cutie is worth every penny!";
 
 //Final Boss 
 //Create your own product for the last three sections.
+
+//var customItemSection1 = document.getElementsByClassName('block 1')[3];
+var customItemSection3 = document.getElementsByClassName('block 3')[3];
+
+//Item 1
+var customBrand1 = document.getElementsByClassName('brand')[5];
+customBrand1.innerHTML = "CD Album";
+var customItem1 = document.getElementsByClassName('item')[5];
+customItem1.innerHTML = "Stadium Arcadium";
+var customPrice1 = document.getElementsByClassName('price')[5];
+customPrice1.innerHTML = "$35.99";
+var customDiscount1 = document.getElementsByClassName('discount')[5];
+customDiscount1.innerHTML = "Half-off if you know Flea's real name!";
+
+//Item 2
+var customItemSection2 = document.getElementsByClassName('block2')[3];
+var customBrand2 = document.createElement("DIV");
+customBrand2.class = 'brand';
+customBrand2.innerHTML = "CD Album";
+customItemSection2.appendChild(customBrand2);
+var customItem2 = document.createElement("DIV");
+customItem2.class = 'item';
+customItem2.innerHTML = "BABYMETAL's Third Album";
+customItemSection2.appendChild(customItem2);
+var customPrice2 = document.createElement("DIV");
+customPrice2.class = 'price';
+customPrice2.innerHTML = "???";
+customItemSection2.appendChild(customPrice2);
+var customButton2 = document.createElement("BUTTON");
+var customButton2Text = document.createTextNode("W.I.D");
+customButton2.appendChild(customButton2Text);
+customItemSection2.appendChild(customButton2);
+
+//Item 3
+var customItemSection3 = document.getElementsByClassName('block3')[3];
+var customBrand3 = document.createElement("DIV");
+customBrand3.class = 'brand';
+customBrand3.innerHTML = "Car";
+customItemSection3.appendChild(customBrand3);
+var customItem3 = document.createElement("DIV");
+customItem3.class = 'item';
+customItem3.innerHTML = "2013 Civic";
+customItemSection3.appendChild(customItem3);
+var customPrice3 = document.createElement("DIV");
+customPrice3.class = 'price';
+customPrice3.innerHTML = "$10,000";
+customItemSection3.appendChild(customPrice3);
+var customButton3 = document.createElement("BUTTON");
+var customButton3Text = document.createTextNode("Used vehicles are 50% off");
+customButton3.appendChild(customButton3Text);
+customItemSection3.appendChild(customButton3);
