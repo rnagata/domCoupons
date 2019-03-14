@@ -117,5 +117,14 @@ doritosButton.innerHTML = "33% OFF any 6 pack Budweiser or Bud Light";
 //div.price = Priceless
 // button.discount = No Discounts. This cutie is worth every penny!
 
+var pugBrand = document.getElementsByClassName('brand')[4];
+pugBrand.innerHTML = "Any Dog Breeder";
+var pugItem = document.getElementsByClassName('item')[4];
+pugItem.innerHTML = "Baby Puggy";
+var pugPrice = document.getElementsByClassName('price')[4];
+pugPrice.innerHTML = "Priceless";
+var pugButton = document.getElementsByClassName('discount')[4];
+pugButton.innerHTML = "No Discounts. This cutie is worth every penny!";
+
 //Final Boss 
 //Create your own product for the last three sections.
