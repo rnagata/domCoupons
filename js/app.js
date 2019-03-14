@@ -84,7 +84,7 @@ document.getElementsByClassName('block3')[1].appendChild(headphonesButton);
 //div.item =  Unicorn-Head Slippers
 //div.price = $21.99
 // button.discount = Free knee-high tube socks with purchase!
-var unicornSlippersSection = document.getElementsByClassName('block1')[2];
+
 //console.log(document.getElementsByClassName('brand')[2].innerHTML)
 var unicornSlippersBrand = document.getElementsByClassName('brand')[2];
 unicornSlippersBrand.innerHTML = "H&M";
@@ -101,6 +101,15 @@ unicornSlippersButton.innerHTML = "Free knee-high tube socks with purchase!";
 //div.item =  Poppin' Jalapeno Doritos
 //div.price = $7.77
 // button.discount = 33% OFF any 6 pack Budweiser or Bud Light.
+
+var doritosBrand = document.getElementsByClassName('brand')[3];
+doritosBrand.innerHTML = "Frito Lay";
+var doritosItem = document.getElementsByClassName('item')[3];
+doritosItem.innerHTML = "Poppin' Jalapeno Doritos";
+var doritosPrice = document.getElementsByClassName('price')[3];
+doritosPrice.innerHTML = "$7.77";
+var doritosButton = document.getElementsByClassName('discount')[3];
+doritosButton.innerHTML = "33% OFF any 6 pack Budweiser or Bud Light";
 
 //19. For the Pug, change the contents for each element to the following:
 //div.brand = Any Dog Breeder
