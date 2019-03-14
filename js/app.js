@@ -48,6 +48,8 @@ discount4.appendChild(discount4Text);
 document.getElementsByClassName("block1")[1].appendChild(discount4);
 //11. Target the div element with the class of 'brand' for the red hoodie section and update the content to Uniqlo.
 
+//console.log(document.getElementsByClassName('brand')[1].innerHTML);
+document.getElementsByClassName('brand')[1].innerHTML = "Uniqlo";
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
 
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
