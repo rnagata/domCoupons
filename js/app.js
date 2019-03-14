@@ -75,6 +75,10 @@ headphonesPrice.innerHTML = "$18,000";
 document.getElementsByClassName('block3')[1].appendChild(headphonesPrice);
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
 
+var headphonesButton = document.createElement("BUTTON");
+headphonesButton.class = 'discount';
+headphonesButton.innerHTML = "Free Barry Manilow CD with purchase!";
+document.getElementsByClassName('block3')[1].appendChild(headphonesButton);
 //17. For the Unicorn Slippers, change the contents for each element to the following: 
 //div.brand = H&M
 //div.item =  Unicorn-Head Slippers
