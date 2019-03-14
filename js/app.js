@@ -54,7 +54,7 @@ document.getElementsByClassName('brand')[1].innerHTML = "Uniqlo";
 
 var hoodiePrice = document.getElementsByClassName('price')[1];
 //console.log(document.getElementsByClassName('price')[1].innerHTML);
-hoodiePrice.innerHTML = "10,000";
+hoodiePrice.innerHTML = "$10,000";
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
 
 var headphonesBrand = document.createElement("DIV");
@@ -84,6 +84,17 @@ document.getElementsByClassName('block3')[1].appendChild(headphonesButton);
 //div.item =  Unicorn-Head Slippers
 //div.price = $21.99
 // button.discount = Free knee-high tube socks with purchase!
+var unicornSlippersSection = document.getElementsByClassName('block1')[2];
+//console.log(document.getElementsByClassName('brand')[2].innerHTML)
+var unicornSlippersBrand = document.getElementsByClassName('brand')[2];
+unicornSlippersBrand.innerHTML = "H&M";
+var unicornSlippersItem = document.getElementsByClassName('item')[2];
+unicornSlippersItem.innerHTML = "Unicorn-Head Slippers";
+var unicornSlippersPrice = document.getElementsByClassName('price')[2];
+unicornSlippersPrice.innerHTML = "$21.99";
+var unicornSlippersButton = document.getElementsByClassName('discount')[2];
+unicornSlippersButton.innerHTML = "Free knee-high tube socks with purchase!";
+
 
 //18. For the Doritos, change the contents for each element to the following:
 //div.brand = Frito Lay
