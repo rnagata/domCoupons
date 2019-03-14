@@ -57,14 +57,22 @@ var hoodiePrice = document.getElementsByClassName('price')[1];
 hoodiePrice.innerHTML = "10,000";
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
 
-var headphonesItem = document.createElement("DIV");
-headphonesItem.class = 'brand';
-headphonesItem.innerHTML = "Hifiman Shangri-La";
-document.getElementsByClassName('block3')[1].appendChild(headphonesItem);
+var headphonesBrand = document.createElement("DIV");
+headphonesBrand.class = 'brand';
+headphonesBrand.innerHTML = "Hifiman Shangri-La";
+document.getElementsByClassName('block3')[1].appendChild(headphonesBrand);
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
 
+var headphonesItem = document.createElement("DIV");
+headphonesItem.class = 'item';
+headphonesItem.innerHTML = "Electronstatic Headphones";
+document.getElementsByClassName('block3')[1].appendChild(headphonesItem);
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
 
+var headphonesPrice = document.createElement("DIV");
+headphonesPrice.class = 'price';
+headphonesPrice.innerHTML = "$18,000";
+document.getElementsByClassName('block3')[1].appendChild(headphonesPrice);
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
 
 //17. For the Unicorn Slippers, change the contents for each element to the following: 
